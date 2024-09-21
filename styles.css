@@ -23,6 +23,8 @@ body {
 
 .container {
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .container__botao {
@@ -31,4 +33,9 @@ body {
     padding: 1em;
     color: var(--color-primary);
     display: block;
+}
+
+.botao_secondary {
+    background-color: transparent;
+    border: 2px solid var(--color-primary);
 }
