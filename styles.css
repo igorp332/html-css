@@ -3,11 +3,15 @@
    --color-secondary: #C0C0C0; 
    --color-tertiary: #167BF7;
    --background-color: #00030C;
+   --font-main: "Inter";
 }
 
 body {
     background-color: var(--background-color);
     color: var(--color-primary);
+    font-family: var(--font-main);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 * {
@@ -33,9 +37,20 @@ body {
     padding: 1em;
     color: var(--color-primary);
     display: block;
+    text-decoration: none;
 }
 
 .botao_secondary {
     background-color: transparent;
     border: 2px solid var(--color-primary);
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--color-secondary);
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
 }
